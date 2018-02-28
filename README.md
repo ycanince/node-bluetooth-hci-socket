@@ -46,6 +46,7 @@ Note:
 | Name | USB VID | USB PID |
 |:---- | :------ | :-------|
 | BCM2045A0 Bluetooth 4.1 | 0x0a5c | 0x6412 |
+| Marvell AVASTAR | 0x1286 | 0x204C |
 
 ## Install
 
