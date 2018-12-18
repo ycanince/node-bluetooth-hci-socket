@@ -49,7 +49,7 @@ Note:
 ## Install
 
 ```sh
-npm install bluetooth-hci-socket
+npm install @abandonware/bluetooth-hci-socket
 ```
 
 ## Usage
