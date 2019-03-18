@@ -41,6 +41,7 @@ Note:
 | Intel Wireless Bluetooth 7265 | 0x8087 | 0x0a2a |
 | Intel Wireless Bluetooth 8265 | 0x8087 | 0x0a2b |
 | Belkin BCM20702A0 | 0x050D | 0x065A |
+| Dell Precision 5530| 0x8087 | 0x0025 |
 
 #### Compatible Bluetooth 4.1 USB Adapter's
 | Name | USB VID | USB PID |
