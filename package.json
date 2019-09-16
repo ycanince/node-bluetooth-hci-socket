@@ -1,6 +1,6 @@
 {
   "name": "@abandonware/bluetooth-hci-socket",
-  "version": "0.5.3-1",
+  "version": "0.5.3-2",
   "description": "Bluetooth HCI socket binding for Node.js",
   "main": "index.js",
   "repository": {
@@ -27,19 +27,18 @@
   ],
   "dependencies": {
     "debug": "^4.1.0",
-    "nan": "^2.10.0",
-    "node-pre-gyp": "^0.12.0"
+    "nan": "^2.14.0",
+    "node-pre-gyp": "^0.13.0"
   },
   "optionalDependencies": {
-    "usb": "^1.1.0"
+    "usb": "^1.6.0"
   },
   "devDependencies": {
     "jshint": "^2.8.0"
   },
   "scripts": {
-    "preinstall": "npm install node-pre-gyp",
     "install": "node-pre-gyp install --fallback-to-build",
-    "test": "jshint lib/*.js"
+    "test": "jshint lib/*.js && node ."
   },
   "binary": {
     "module_name": "binding",
@@ -47,5 +46,8 @@
     "host": "https://github.com/sandeepmistry/node-bluetooth-hci-socket/releases/download/",
     "package_name": "{module_name}-{version}-{node_abi}-{platform}-{arch}.tar.gz",
     "remote_path": "{version}"
+  },
+  "jshintConfig": {
+    "esversion": 6
   }
 }
