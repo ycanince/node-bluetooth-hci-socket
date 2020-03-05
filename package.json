@@ -26,15 +26,15 @@
     "win32"
   ],
   "dependencies": {
-    "debug": "^4.1.0",
+    "debug": "^4.1.1",
     "nan": "^2.14.0",
-    "node-pre-gyp": "^0.13.0"
+    "node-pre-gyp": "^0.14.0"
   },
   "optionalDependencies": {
-    "usb": "^1.6.0"
+    "usb": "^1.6.2"
   },
   "devDependencies": {
-    "jshint": "^2.8.0"
+    "jshint": "^2.11.0"
   },
   "scripts": {
     "install": "node-pre-gyp install --fallback-to-build",
