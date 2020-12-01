@@ -15,7 +15,7 @@ interface Device {
     deviceAddress: number | null;
 }
 
-interface BluetoothHciSocket extends NodeJS.EventEmitter {
+declare class BluetoothHciSocket extends NodeJS.EventEmitter {
     getDeviceList(): Device[];
     isDevUp(): boolean;
 
@@ -33,6 +33,4 @@ interface BluetoothHciSocket extends NodeJS.EventEmitter {
     on(event: "data", cb: (data: Buffer) => void): this;
     on(event: "error", cb: (error: NodeJS.ErrnoException) => void): this;
 }
-
-declare const bluetoothHciSocket: BluetoothHciSocket;
-export = bluetoothHciSocket;
+export = BluetoothHciSocket;
