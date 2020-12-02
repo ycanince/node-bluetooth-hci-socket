@@ -1,3 +1,4 @@
+// SPDX-Licence-Indentifier: MIT
 // By: Yusuf Can INCE <ycanince@gmail.com>
 
 /// <reference types="node" />
