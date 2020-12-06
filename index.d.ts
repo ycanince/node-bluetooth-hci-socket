@@ -1,3 +1,4 @@
+// SPDX-Licence-Indentifier: MIT
 // By: Yusuf Can INCE <ycanince@gmail.com>
 
 /// <reference types="node" />
@@ -23,9 +24,9 @@ declare class BluetoothHciSocket extends NodeJS.EventEmitter {
     stop(): void;
     reset(): void;
 
-    bindRaw(devId: number): void;
-    bindUser(devId: number): void;
-    bindControl(): void;
+    bindRaw(devId: number): number;
+    bindUser(devId: number): number;
+    bindControl(): number;
 
     setFilter(filter: Buffer): void;
     write(data: Buffer): void;
