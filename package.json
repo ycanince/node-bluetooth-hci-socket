@@ -50,5 +50,9 @@
   },
   "jshintConfig": {
     "esversion": 6
+  },
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
   }
 }
