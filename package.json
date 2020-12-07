@@ -1,12 +1,12 @@
 {
-  "name": "@abandonware/bluetooth-hci-socket",
+  "name": "@ycanince/bluetooth-hci-socket",
   "version": "0.5.3-6",
   "description": "Bluetooth HCI socket binding for Node.js",
   "main": "index.js",
   "types": "index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/abandonware/node-bluetooth-hci-socket.git"
+    "url": "https://github.com/ycanince/node-bluetooth-hci-socket.git"
   },
   "keywords": [
     "HCI",
@@ -17,9 +17,9 @@
   "author": "Sandeep Mistry <sandeep.mistry@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/abandonware/node-bluetooth-hci-socket/issues"
+    "url": "https://github.com/ycanince/node-bluetooth-hci-socket/issues"
   },
-  "homepage": "https://github.com/abandonware/node-bluetooth-hci-socket",
+  "homepage": "https://github.com/ycanince/node-bluetooth-hci-socket",
   "os": [
     "linux",
     "android",
@@ -44,7 +44,7 @@
   "binary": {
     "module_name": "bluetooth_hci_socket",
     "module_path": "./lib/binding/",
-    "host": "https://github.com/abandonware/node-bluetooth-hci-socket/releases/download/",
+    "host": "https://github.com/ycanince/node-bluetooth-hci-socket/releases/download/",
     "package_name": "{module_name}-{version}-{node_abi}-{platform}-{arch}.tar.gz",
     "remote_path": "{version}"
   },
